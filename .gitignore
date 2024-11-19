@@ -1,2 +1,9 @@
-*.pyc
+# python generated file
 __pycache__
+*.py[oc]
+*.egg-info
+build/
+dist/
+
+# virtual environment
+.venv

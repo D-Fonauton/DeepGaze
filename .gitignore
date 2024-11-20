@@ -7,3 +7,6 @@ dist/
 
 # virtual environment
 .venv
+
+# output files
+*.out

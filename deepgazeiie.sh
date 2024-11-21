@@ -8,6 +8,6 @@
 module load ipython-kernel/3.10 # Make sure to choose a version that suits your application
 virtualenv --no-download $SLURM_TMPDIR/env
 source $SLURM_TMPDIR/env/bin/activate
-pip install --no-index -r requirements.txt
+pip install --no-index numpy scikit-learn torch matplotlib torchvision
 
 python deepgazeiie.py

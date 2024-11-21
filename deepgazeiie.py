@@ -16,7 +16,7 @@ def normalize(data):
 # you can use DeepGazeI or DeepGazeIIE
 model = deepgaze_pytorch.DeepGazeIIE(pretrained=True).to(DEVICE)
 
-image = plt.imread('000000001455.jpg')
+image = plt.imread(r'figures/000000001455.jpg')
 
 # load precomputed centerbias log density (from MIT1003) over a 1024x1024 image
 # you can download the centerbias from https://github.com/matthias-k/DeepGaze/releases/download/v1.0.0/centerbias_mit1003.npy
